@@ -2,7 +2,7 @@
 int main()
 {
     float radius;
-    float pi;
+    float pi=3.14;
     float area;
     scanf("%f",&radius);
     scanf("%f",&pi);
