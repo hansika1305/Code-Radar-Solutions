@@ -7,6 +7,6 @@ int main()
 
     char b[100];
     scanf("%s",&b);
-    printf(" %s",b);
+    printf("%s",b);
     return 0;
 }
