@@ -5,8 +5,8 @@ int main()
     int c;
     char b[100];
     scanf("%s",&a);
-    scanf("%s",&b);
     scanf("%d",&c);
+    scanf("%s",&b);
     printf("Name: %s\n",a);
     printf("Age: %d\n",c);
     printf("Hobby: %s",b);
