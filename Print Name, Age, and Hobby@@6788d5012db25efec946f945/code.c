@@ -2,8 +2,8 @@
 int main()
 {
     char a[100];
-    char b[100];
     int c;
+    char b[100];
     scanf("%s",&a);
     scanf("%s",&b);
     scanf("%d",&c);
