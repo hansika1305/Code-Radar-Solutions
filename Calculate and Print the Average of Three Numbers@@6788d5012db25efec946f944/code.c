@@ -5,10 +5,10 @@ int main()
     int b;
     int c;
     int average;
-    scanf("%f",&a);
-    scanf("%f",&b);
-    scanf("%f",&c);
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
     average=(a+b+c)/3;
-    printf("Average: %f",average);
+    printf("Average: %d",average);
     return 0;
 }
