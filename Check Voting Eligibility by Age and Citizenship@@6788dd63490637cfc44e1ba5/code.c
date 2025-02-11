@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
 
-    if(n>=18 && n==1){
+    if(a>=18 && a==1){
         printf("Eligible");
     }
     else{
