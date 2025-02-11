@@ -3,43 +3,14 @@ int main() {
     int n;
     scanf("%d",&n);
 
-    if(n==1){
-        printf("January");
+    if(a==1 || a==3 || a==5 || a==7 || a==8 || a==10 || a==12){
+        printf("31");
     }
-    if(n==1){
-        printf("February");
-    }
-    if(n==1){
-        printf("March");
-    }
-    if(n==1){
-        printf("April");
-    }
-    if(n==1){
-        printf("May");
-    }
-    if(n==1){
-        printf("June");
-    }
-    if(n==1){
-        printf("July");
-    }
-    if(n==1){
-        printf("August");
-    }
-    if(n==1){
-        printf("September");
-    }
-    else if(n==1){
-        printf("October");
-    }
-    else if(n==1){
-        printf("November");
+    else if(a==2){
+        printf("28");
     }
     else{
-        printf("December");
+        printf("30");
     }
-
-    
     return 0;
 }
