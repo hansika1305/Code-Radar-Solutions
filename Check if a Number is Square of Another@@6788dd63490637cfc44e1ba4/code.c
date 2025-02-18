@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
 
-    if(b*b=a){
+    if(b*b==a){
         printf("Yes");
     }
     else{
