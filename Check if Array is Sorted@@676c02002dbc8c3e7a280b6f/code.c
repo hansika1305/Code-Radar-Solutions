@@ -1,30 +1,17 @@
 // Your code here...
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-    int n,p=0;
-    scanf("%d",&n);
-    int arr[n];
-
-    for(int i=0;i<n;i++){
+    int a;
+    scanf("%d",&a);
+    int arr[a];
+    for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    if(n>1){
-        for(int i=0;i<n-1;i++){
-            for(int j=0;j<n-1;j++){
-                if(arr[j]<=arr[j+1]){
-                    p=1;
-                }
-            }
-        }
-    }
-    else{
-        p=1;
-    }
-    if(p){
-        printf("Sorted");
-    }
-    else{
-        printf("Not Sorted");
-    }
-    return 0;
+    int sort=1;
+    for(int i=0;i<a-1;i++){
+        if(arr[i]>arr[i+1]){sort=0;break;}
+        
+    }if(sort==0){printf("Not Sorted\n");}
+    else{printf("Sorted\n");}
+    return 0;
 }
