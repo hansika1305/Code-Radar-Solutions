@@ -22,5 +22,5 @@ for(int i=0;i<d;i++){
 for(int i=0;i<a;i++){
     printf("%d\n",arr[i]);
 }
-return 0;
+return 0;
 }
