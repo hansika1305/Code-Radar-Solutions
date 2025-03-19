@@ -13,5 +13,5 @@ int main(){
         
     }if(sort==0){printf("Not Sorted\n");}
     else{printf("Sorted\n");}
-    return 0;
+    return 0;
 }
