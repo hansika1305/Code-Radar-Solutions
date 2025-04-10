@@ -9,19 +9,18 @@ struct Student {
 int main() {
     int N, i;
 
-    printf("Enter the number of students: ");
+    
     scanf("%d", &N);
 
     struct Student students[N];
 
     for(i = 0; i < N; i++) {
-        printf("\nEnter details for student %d\n", i + 1);
-        printf("Enter roll number: ");
+       
         scanf("%d", &students[i].rollNo);
-        printf("Enter name: ");
+        
         getchar();  
-        fgets(students[i].name, 50, stdin);  // Read name with space
-        printf("Enter marks: ");
+        fgets(students[i].name, 50, stdin);  
+        
         scanf("%f", &students[i].marks);
     }
 
